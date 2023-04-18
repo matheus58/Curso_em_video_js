@@ -1,0 +1,46 @@
+Operadores :
+
+aritimeticos :
+    + subitraçao
+    - adiçao
+    * miltipicaçao
+    / divisao
+    % resto div
+    ** potencia
+atribição :
+    =
+    +=
+    -=
+    /=
+    *=
+    **=
+    em todos esses o numero fazer uma operasao com ele mesmo e receber o novo vaolor ex:
+    var n1 = 3
+    n1+=3
+    n1 = 6
+    n1 = n1 + 3
+    n1 = 6
+        incremento :
+        n1--
+        n1++
+relacionais :
+    > maio que
+    < menor que 
+    <= menor igual que
+    >= maior igual que
+    == igual
+    != diferente que
+        operadores Indentidade :
+            == texta se as duas variaveis tem as mesma grandeza
+            === texta se os dois sao indenticos (mesmo valor , mesmo tipo);
+logicos :
+    ! negaçao
+    && (é) conjunçao quando os dois valores logicos forem true
+    || (ou) diginsao  quando os um dos valores forem true
+ternario :
+    o ternario como o nome diz usa tres operanos
+    o primeiro : teste logico
+    o segundo : o que vai acontecer quando for verdadero
+    o terceiro : o que vai acontecer quando for false
+    sintax:
+    teste ? verdadeiro : falso
