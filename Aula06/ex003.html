@@ -21,7 +21,33 @@
         <p>ja me livrei da maldiçao</p>
 
         <script>
-            var
+           /*
+            * Se nao convertermos as variaveis n1 ,n2 o js vai enteder que sao duas variaveis do
+            * tipo String para fazermos essa conversao temos que usar  :
+            * Number.parseInt() = para numeros do tipo int
+            * Number.parseFloat() = par dados do tipo float
+            * tambem temos a versao simplificada :
+            * Number() = nessa versao o js se vira para converter o numero sem saber qual e o tipo
+            */
+
+           /*
+            * Tambem consiguimos converter tipos String adicionando :
+            *  s.toString
+            * String(s)
+            */
+
+            var  n1 = Number.parseInt( window.prompt('digite um numero'))
+            var  n2 = Number.parseInt(window.prompt('Digite outro numero'))
+            var soma = n1 + n2
+           window.alert(`a soma entre ${n1} e ${n2} e igual a ${soma}`)//concatenaçoa ;
+            // o sinal de "+" pode servi para concatena duas strings;
+            // Ou  com adisao com variaves do tipo number ;
+
+           //concatenaçoa
+           // podemos usar a crase "` `" com o ${} para reverencia a variavel
+           // podemos usar as aspas '' com o +
+
+
         </script>
 
     </body>
