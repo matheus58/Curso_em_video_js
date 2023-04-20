@@ -1,0 +1,16 @@
+O que o DOM :
+    DOM(document obiject model) e um conjunto de obijetos dentro do navegador que fornece acesso
+    a os componentes internos do site .
+raiz do DOM :
+                 window (tudo do js esta dentro de window ,e la dentro tem mais varios outros obj ex)
+     location  document  history
+               html(fica dentro do obijeto document)
+            head  body
+
+como selecionar esses obj para navegar dentro da arvore DOM:
+    por marca   : getElementsByTagName()
+    por ID      : getElementById()
+    por nome    : getElementsByName()
+    por Classe  : getElementsByClaseName()
+    por Seletor : querySelector(),querySelectorAll()
+    ...
